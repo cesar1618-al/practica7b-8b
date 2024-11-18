@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Práctica 7</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    <div id="barraSuperior">
+        <img src="icono.png" alt="iconoRS">
+        <h1>Red Social</h1>
+    </div>
+    <form>
+            <fieldset display class="campo">
+                <legend>CREAR UNA CUENTA</legend>
+                <div class="espacio">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" name="Nombre" size="20" value="Pancho López"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="Correo">E-mail:</label>
+                    <input type="text" id="Correo" name="Correo" size="20" value="Pancho@netica.com"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="NUsuario">Nombre de usuario:</label>
+                    <input type="text" id="NUsuario" name="Usuario" size="20" value="@Usuario"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="NContrasena">Contraseña:</label>
+                    <input type="password" id="NContrasena" name="Contrasena" size="20" value="*****"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="NContrasena">Contraseña:</label>
+                    <input type="password" id="NContrasena" name="Contrasena" size="20" value="*****"/> <br>
+                </div>
+                <div class="espacio opciones">
+                    <div class="radio">
+                        <input type="radio" id="hombre" value="hombre" name="sexo" checked="true"/>
+                        <label for="hombre">Hombre</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="mujer" value="mujer" name="sexo"/>
+                        <label for="mujer">Mujer</label><br>
+                    </div>
+                    <select>
+                    <optgroup label = "Pais">
+                        <option>Argentina</option>
+                        <option>Bolivia</option>
+                        <option>Chile</option>
+                        <option>Colombia</option>
+                        <option>Costa Rica</option>
+                        <option>Cuba</option>
+                        <option>Ecuador</option>
+                        <option>El Salvador</option>
+                        <option>España</option>
+                        <option>Guatemala</option>
+                        <option>Guinea Ecuatorial</option>
+                        <option>Honduras</option>
+                        <option>México</option>
+                        <option>Nicaragua</option>
+                        <option>Panamá</option>
+                        <option>Paraguay</option>
+                        <option>Perú</option>
+                        <option>Puerto Rico</option>
+                        <option>República Dominicana</option>
+                        <option>Uruguay</option>
+                        <option>Venezuela</option>
+                    </optgroup>
+                    </select>
+                </div>
+                <div class="espacio opciones">
+                    <input type="checkbox" id="condiciones" name="condiciones"/>
+                    <label for="condiciones">Acepto las condiciones</label> <br>
+                </div>
+                <div class="espacio opciones">
+                    <input type="submit" value="Listo" class="boton"/>
+                    <input type="reset" value="Borrar" class="boton"/>
+                </div>
+            </fieldset>
+        
+            <fieldset display class="campo" id="iniciosesion">
+                <legend>INICIAR SESIÓN</legend>
+                <div class="espacio">
+                    <label for="Usuario">Usuario:</label>
+                    <input type="text" id="Usuario" name="Usuario" size="20" value="@Usuario"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="Contrasena">Contraseña:</label>
+                    <input type="password" id="Contrasena" name="Contrasena" size="20" value="*****"/> <br>
+                </div>
+                <div class="espacio opciones">
+                    <input type="submit" value="Entrar" class="boton"/>
+                    <input type="reset" value="Borrar" class="boton"/>
+                </div>
+            </fieldset>  
+        </form>
+    <footer>
+      <p>Esta red Social sirve para poder conocer a mas personas en países latinos e hispanohablante con el objetivo de </p>
+    </footer>
+</body>
+</html>

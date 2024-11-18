@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Práctica 7</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+    <div id="barraSuperior">
+        <img src="css/iconod.png" alt="iconoRS">
+        <h1>La Pequeña Villa</h1>
+    </div>
+    <form>
+            <fieldset display class="campo">
+                <legend>CREAR UNA CUENTA</legend>
+                <div class="espacio">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" name="Nombre" size="20" value="Pancho López"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="Correo">E-mail:</label>
+                    <input type="text" id="Correo" name="Correo" size="20" value="Pancho@netica.com"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="NUsuario">Nombre de usuario:</label>
+                    <input type="text" id="NUsuario" name="Usuario" size="20" value="@Usuario"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="NContrasena">Contraseña:</label>
+                    <input type="password" id="NContrasena" name="Contrasena" size="20" value="*****"/> <br>
+                </div>
+                <div class="espacio opciones">
+                    <div class="radio">
+                        <input type="radio" id="hombre" value="hombre" name="sexo" checked="true"/>
+                        <label for="hombre">Hombre</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="mujer" value="mujer" name="sexo"/>
+                        <label for="mujer">Mujer</label><br>
+                    </div>
+                </div>
+                <div class="espacio opciones">
+                    <input type="checkbox" id="condiciones" name="condiciones"/>
+                    <label for="condiciones">Acepto las condiciones</label> <br>
+                </div>
+                <div class="espacio opciones">
+                    <input type="submit" value="Listo" class="boton"/>
+                    <input type="reset" value="Borrar" class="boton"/>
+                </div>
+            </fieldset>
+        
+            <fieldset display class="campo" id="iniciosesion">
+                <legend>INICIAR SESIÓN</legend>
+                <div class="espacio">
+                    <label for="Usuario">Usuario:</label>
+                    <input type="text" id="Usuario" name="Usuario" size="20" value="@Usuario"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="Contrasena">Contraseña:</label>
+                    <input type="password" id="Contrasena" name="Contrasena" size="20" value="*****"/> <br>
+                </div>
+                <div class="espacio">
+                    <label for="Contrasena">Contraseña:</label>
+                    <input type="password" id="Contrasena" name="Contrasena" size="20" value="*****"/> <br>
+                </div>
+                <div class="espacio opciones">
+                    <input type="submit" value="Entrar" class="boton"/>
+                    <input type="reset" value="Borrar" class="boton"/>
+                </div>
+            </fieldset>  
+        </form>
+    <footer>
+      <p>Esta red social permite a las personas de paises hispanohablantes conocerse a pesar de que se encuentren en distindtas partes del mundo con el objetivo de compartir tradiciones y muchas otras cosas.</p>
+    </footer>
+</body>
+</html>
